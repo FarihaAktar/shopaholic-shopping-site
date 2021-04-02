@@ -52,8 +52,6 @@ const Orders = () => {
                             </table>
                         </div>
                     </>
-
-
                 }
 
             </div>

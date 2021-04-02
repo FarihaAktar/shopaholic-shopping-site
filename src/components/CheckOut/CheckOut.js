@@ -29,7 +29,7 @@ const CheckOut = () => {
             .then(res => res.json())
             .then(data => {
                 if (data) {
-                    alert('Your Order Placed Successfully')
+                    alert('Your Order is Placed Successfully')
                 }
             })
     }

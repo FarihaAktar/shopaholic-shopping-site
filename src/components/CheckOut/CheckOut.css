@@ -2,6 +2,7 @@
     display: flex;
     margin: 50px auto;
     width: 80%;
+    height: 800px;
 }
 .checkout-section img{
     width: 450px;
@@ -10,6 +11,7 @@
     width: 60%;
     margin: 350px 0px;
     padding: 20px;
+    height: 300px;
 }
 .checkout{
     font-size: 40px;
@@ -31,7 +33,7 @@ table td{
 }
 .check-btn{
     margin-top: 10px;
-    margin-left: 550px;
+    margin-left: 500px;
     padding: 15px 20px;
     font-size: 20px;
     border-radius: 7px;
@@ -48,6 +50,7 @@ table td{
 @media only screen and (max-width: 600px){
     .checkout-section{
         flex-direction: column;
+        width: 100%;
     }
     .checkout-section img{
         width:100%
