@@ -62,7 +62,9 @@ const AddProducts = () => {
         <div className="grid-container">
             <ul className='item1'>
                 <li>
-
+                    <h2>Shopaholic</h2>
+                </li>
+                <li>
                     <Link to='/manageProduct'><FontAwesomeIcon className='add-icon' icon={faThLarge} /> Manage Product</Link>
                 </li>
                 <li>

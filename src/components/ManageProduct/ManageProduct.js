@@ -17,7 +17,10 @@ const ManageProduct = () => {
 
     return (
         <div className='grid-container'>
-             <ul className='grid-item item1'>
+            <ul className=' item1'>
+                <li >
+                    <h2>Shopaholic</h2>
+                </li>
                 <li>
 
                     <Link to='/manageProduct'><FontAwesomeIcon className='add-icon' icon={faThLarge} /> Manage Product</Link>
@@ -36,9 +39,9 @@ const ManageProduct = () => {
                     </tr>
                 </thead>
                 <tbody>
-                   {
-                       products.map(product => <Manage key={product._id} product={product}></Manage>)
-                   }
+                    {
+                        products.map(product => <Manage key={product._id} product={product}></Manage>)
+                    }
                 </tbody>
             </table>
         </div>
