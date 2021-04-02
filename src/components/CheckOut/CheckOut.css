@@ -43,3 +43,20 @@ table td{
 .check-btn:hover{
     background-color: rgb(221, 43, 67);
 }
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .checkout-section{
+        flex-direction: column;
+    }
+    .checkout-section img{
+        width:100%
+    }
+    .checkout-details{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .check-btn{
+        margin-left: 0;
+    }
+}
