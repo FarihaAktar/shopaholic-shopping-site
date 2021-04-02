@@ -1,0 +1,8 @@
+.manage-icon{
+    color: rgb(161, 10, 161);
+    cursor: pointer;
+    font-size: 22px;
+}
+.manage-icon:hover{
+    color: red;
+}

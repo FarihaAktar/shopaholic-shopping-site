@@ -1,0 +1,45 @@
+.checkout-section{
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+}
+.checkout-section img{
+    width: 450px;
+}
+.checkout-details{
+    width: 60%;
+    margin: 350px 0px;
+    padding: 20px;
+}
+.checkout{
+    font-size: 40px;
+    
+}
+table{    
+    width: 100%;
+}
+table  th{
+    text-align: left;
+    border-bottom: 1px solid rgb(185, 183, 183);
+    padding: 15px;
+    color: grey;
+}
+table td{
+    border-bottom: 1px solid rgb(185, 183, 183);
+    padding: 20px;
+    font-weight: bolder;
+}
+.check-btn{
+    margin-top: 10px;
+    margin-left: 550px;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(173, 42, 173);
+    color: white;
+    cursor: pointer;
+}
+.check-btn:hover{
+    background-color: rgb(221, 43, 67);
+}

@@ -1,0 +1,73 @@
+.forgot-tag{
+    margin-left: 140px;
+}
+.form{
+    border: 1px solid rgb(158, 156, 156);
+    width: 37%;
+    margin: 40px auto;
+    padding: 20px 50px;
+}
+.form h2{
+    font-weight: bolder;
+
+}
+.input-text-login{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.form-button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(173, 42, 173);
+    color: #fff;
+    border: 1px solid rgb(75, 2, 75);
+    font-size: 17px;
+}
+.form-button:hover{
+    background-color: rgb(221, 43, 67);
+}
+.comment{
+    margin-top: 10px;
+    text-align: center;
+}
+.comment h5{
+    color: rgb(173, 42, 173);
+    cursor: pointer;
+}
+.comment h6, p{
+    font-weight:bolder;
+}
+.social-media{
+    margin-bottom: 40px;
+}
+.social-media h5{
+    text-align: center;
+}
+.social-icon{
+   margin-right: 60px;
+   color: rgb(62, 62, 192);
+   font-size: 30px;
+}
+.social-icon-text{
+    border: 1px solid rgb(182, 179, 179);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    width: 28%;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.social-icon-text:hover{
+    background-color: rgb(189, 77, 189);
+    color: white;
+}
+.social-icon-text h5{
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 5px;
+}

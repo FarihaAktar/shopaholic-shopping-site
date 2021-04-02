@@ -1,0 +1,10 @@
+.table{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.thead{
+    background-color: rgb(236, 208, 246);
+}
+.thead tr th{
+    color: rgb(189, 23, 189);
+}

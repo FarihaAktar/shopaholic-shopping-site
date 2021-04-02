@@ -1,0 +1,21 @@
+.order-section{
+    /* display: flex; */
+    width: 80%;
+    margin: 100px auto;
+}
+.buyer img{
+    border-radius: 30%;
+    margin-bottom: 15px;
+}
+.buyer h4{
+    font-weight: bolder;
+}
+.name{
+    color: rgb(173, 42, 173);
+}
+.buyer-order-detail{
+    margin-top: 40px;
+}
+.buyer-order-detail h2{
+    font-weight: bolder;
+}
