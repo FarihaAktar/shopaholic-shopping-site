@@ -15,7 +15,8 @@ const Manage = ({ product }) => {
         })
             .then(res => res.json())
             .then(result => {
-                console.log("deleted successfully", result)
+                console.log("deleted successfully", result);
+                alert("Product is deleted successfully!")
             })
     }
     return (

@@ -43,6 +43,10 @@ const Login = () => {
                 console.log(errorCode, errorMessage)
             });
     }
+    const handleSignIn = (e) => {
+        alert("Continue with google sign in")
+        e.preventDefault();
+    }
 
     return (
         <div>
@@ -52,7 +56,7 @@ const Login = () => {
             <div className="form">
 
                 <h2>Login</h2>
-                <form >
+                <form onSubmit={handleSignIn}>
                     <input className="input-text-login" type="email" name="email" required placeholder="Email" />
                     <br />
                     <input className="input-text-login" type="password" name="password" required placeholder="Password" />
