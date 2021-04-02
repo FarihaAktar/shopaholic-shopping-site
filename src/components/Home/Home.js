@@ -14,6 +14,12 @@ const Home = () => {
     return (
         <>
             <Header></Header>
+            {products.length ?
+                <div></div>
+                :
+                <div id='loading-spinner'>
+                    <div className='loader'></div>
+                </div>}
             <div className="products">
                 {
                     products.map(product => <Product product={product} key={product._id}></Product>)

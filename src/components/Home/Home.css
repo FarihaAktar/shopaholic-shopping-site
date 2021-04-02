@@ -5,3 +5,31 @@
     margin: 30px auto;
     width: 80%;
 }
+
+#loading-spinner{
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 9px solid rgb(144, 18, 148);
+    border-right: 9px solid rgb(144, 18, 148);
+    border-left: 9px solid rgba(219, 88, 251, 0.534);
+    border-bottom: 9px solid rgba(219, 88, 251, 0.534);
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
