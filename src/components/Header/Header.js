@@ -5,7 +5,7 @@ import './Header.css'
 import { UserContext } from '../../App';
 
 const Header = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <Navbar className='navbar' collapseOnSelect expand="lg">
             <Navbar.Brand className='logo' href="#home">SHOPAHOLIC</Navbar.Brand>
@@ -19,7 +19,12 @@ const Header = () => {
 
                 </Nav>
                 <Nav>
-                    {loggedInUser.email && <h4 className='user-name'>{loggedInUser.displayName || loggedInUser.name}</h4> }
+                    {loggedInUser.email && (
+                        <div className='user-info'>
+                            <img src={loggedInUser.photo } alt="" />
+                            <h4 className='user-name'>{loggedInUser.displayName || loggedInUser.name}</h4>
+                        </div>
+                    )}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
