@@ -8,6 +8,7 @@ import firebaseConfig from './firebase.config';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
 import { Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 if (firebase.apps.length === 0) {
@@ -51,7 +52,9 @@ const Login = () => {
     return (
         <div>
             <Navbar expand="lg" variant="light" bg="light">
-                <Navbar.Brand className='logo' href="#">SHOPAHOLIC</Navbar.Brand>
+                <Navbar.Brand className='logo'>
+                    <Link to='/'>SHOPAHOLIC</Link>
+                </Navbar.Brand>
             </Navbar>
             <div className="form">
 

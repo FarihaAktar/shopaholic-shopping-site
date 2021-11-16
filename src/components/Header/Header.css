@@ -6,7 +6,9 @@
 }
 .logo{
     font-weight: bolder;
+    color: black ;
 }
+
 .navbar{
     width: 90%;
     margin: 0 auto;

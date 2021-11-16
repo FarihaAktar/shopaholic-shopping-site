@@ -8,7 +8,9 @@ const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <Navbar className='navbar' collapseOnSelect expand="lg">
-            <Navbar.Brand className='logo' href="#home">SHOPAHOLIC</Navbar.Brand>
+            <Navbar.Brand className='logo' >
+                <Link to='/'>SHOPAHOLIC</Link>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="mr-auto">
@@ -21,7 +23,7 @@ const Header = () => {
                 <Nav>
                     {loggedInUser.email && (
                         <div className='user-info'>
-                            <img src={loggedInUser.photo } alt="" />
+                            <img src={loggedInUser.photo} alt="" />
                             <h4 className='user-name'>{loggedInUser.displayName || loggedInUser.name}</h4>
                         </div>
                     )}
